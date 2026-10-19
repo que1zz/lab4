@@ -27,7 +27,7 @@
 <img width="136" height="542" alt="lab_schem drawio" src="https://github.com/user-attachments/assets/162d3453-2f0e-449d-88d0-e4b919d76f12" />
 
 
-
+```
 #define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
 #include <locale.h>
@@ -47,10 +47,7 @@ int main() {
 
 	res = (a % 3 == 0 && b % 3 == 0 && c % 3 == 0);
 		printf("Почва:(1-идеальная, 0 - не идеальная): %d", res);
-
-
-
-}
+		}
 ```
 
 ## 3. Результаты работы программы
