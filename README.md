@@ -31,7 +31,8 @@
 #define _CRT_SECURE_NO_DEPRECATE
 #include <stdio.h>
 #include <locale.h>
-int main() {
+int main()
+{
 
 	int a, b, c, res;
 	setlocale(LC_ALL, "RUS");
@@ -47,7 +48,7 @@ int main() {
 
 	res = (a % 3 == 0 && b % 3 == 0 && c % 3 == 0);
 		printf("Почва:(1-идеальная, 0 - не идеальная): %d", res);
-		}
+}
 ```
 
 ## 3. Результаты работы программы
